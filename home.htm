@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale =1.0">
+<title>Praisecodes001 Register Form</title>
+<link rel="stylesheet" href="home.css">
+<link rel="stylesheet"  href="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+<script src="https://cdn.tutorialjinni.com/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+
+
+    </head>
+ <body>
+    <div class="container">
+    <h4>Register Your company</h4>
+</div>
+<div class="hero">
+  <form action="">
+    <div class="row">
+      <div class="col-1">
+    <h4>Full Name</h4>
+    <input type="text">
+  </div>
+  <div class="col-2">
+    <h4>Last Name</h4>
+    <input type="text">
+  
+  </div> 
+  </div>
+
+  <div class="row">
+
+<div class="col-2">
+  <h4>Email</h4>
+  <input type="email" name="" id="">
+</div> 
+
+<div class="col-1">
+    <h4>Company Name</h4>
+    <input type="text">
+  </div>
+</div>
+  <h4>Phone Number</h4>
+  <input type="" name="name" id="phone">
+  <h4>Message</h4>
+ <textarea name="" id="" cols="30"  placeholder="A liitle bio about you company" rows="10"></textarea>
+ <button type="submit">   SUBMIT</button>
+
+  </form>
+</div>
+<script>
+  const phoneInputField = document.querySelector("#phone");
+  const phoneInput = window.intlTelInput(phoneInputField, {
+    utilsScript:
+      "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
+  });
+</script>
+ </body>
+    </html>
